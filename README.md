@@ -16,12 +16,12 @@ Learning about packet sniffing and identifying the activities on a virtualised K
 
 ### Steps for IP Packet Sniffing 
 
-|    | Commands                     | Comments                            |
-|----|------------------------------|-------------------------------------|
-|  1 | ifconfig                     | Check for your ip adress if needed  |
-|  2 | tcpdump -i eth0 -v dst [IP]  | It will produce a 'listening status |
-|  3 | wait for activites           | Doing a refresh on a page will generate results|
-|  4 | identifying activity         | In this experient we have looked through data and found 'www.youtube.com' the page we have refreshed |
+|    | Commands                            | Comments                            |
+|----|-------------------------------------|-------------------------------------|
+|  1 | ifconfig                            | Check for your ip adress if needed  |
+|  2 | tcpdump -i eth0 -v dst [IP]         | It will produce a 'listening status |
+|  3 | wait for activites                  | Doing a refresh on a page will generate results|
+|  4 | identifying activity                | In this experient we have looked through data and found 'www.youtube.com' the page we have refreshed |
 
 This implies that the target IP is using the website. 
 
