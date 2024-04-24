@@ -7,8 +7,11 @@ Learning about packet sniffing and identifying the activities on a virtualised K
     tcpdump -i eth0 -v dst [IP Address/Website]
 
 tcpdump: This is the name of the command-line tool used for capturing network traffic. It allows you to intercept and display the packets flowing through a network interface.
+
 -i eth0: This option specifies the network interface to capture traffic from. In this case, eth0 is the network interface being monitored. eth0 is a common name for the first Ethernet network interface card in a Linux system.
+
 -v: This option stands for "verbose" mode. When used, it provides more detailed information about the captured packets, such as protocol headers and other packet details.
+
 dst [IP Address/Website]: This part of the command specifies the filter for capturing packets based on their destination. In this case, it's filtering packets where the destination IP address matches the specified IP address or website. Replace [IP Address/Website] with the actual IP address or website URL you want to monitor traffic for.
 
 ### Steps for IP Packet Sniffing 
